@@ -1,0 +1,28 @@
+unit View.Calculadora;
+
+interface
+
+type
+  TCalculadora = class
+    private
+      FDefault : Integer;
+    public
+      constructor Create;
+      class function Somar( A, B : Integer) : Integer;
+  end;
+
+implementation
+
+{ TCalculador }
+
+constructor TCalculadora.Create;
+begin
+  FDefault := 10;
+end;
+
+class function TCalculadora.Somar( A, B : Integer) : Integer;
+begin
+  Result := A + B;
+end;
+
+end.

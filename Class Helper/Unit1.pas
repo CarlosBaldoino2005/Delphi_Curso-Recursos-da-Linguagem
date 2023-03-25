@@ -1,0 +1,60 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows,
+  Winapi.Messages,
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+  Vcl.StdCtrls,
+  Helpers, Pessoa;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Button2: TButton;
+    Button3: TButton;
+    ComboBox1: TComboBox;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Edit3.TextInt(Edit1.ToInteger + Edit2.ToInteger);
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  Edit3.TextCurrBR(2523);
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  ShowMessage(
+    TEnumPessoa(ComboBox1.ItemIndex).This.Nome
+  );
+end;
+
+end.

@@ -1,0 +1,39 @@
+{
+    // See https://go.mic.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Delphi",
+        "type": "shell",
+        "windows": {
+          "command": "C:\\Program Files (x86)\\Embarcadero\\Studio\\21.0\\bin\\DCC32.EXE"
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "args": [
+          {
+            "value": "D:\\Git\\develop\\Ere\\Eore.dpr",
+            "quoting": "escape"
+          }
+        ],
+        "problemMatcher": {
+          "owner": "external",
+          "pattern": {
+            "regexp": "^(.*.(pas|dpr|dpk))\\((\\d+)\\)\\s(Fatal|Error|Warning|Hint):(.*)",
+            "file": 1,
+            "location": 3,
+            "message": 5
+          }
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  
+  }

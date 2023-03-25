@@ -1,0 +1,31 @@
+unit Pessoa;
+
+interface
+
+
+type
+  iPessoa = interface
+    function Nome : String;
+  end;
+
+  TPessoaFisica = class
+  public
+    function Nome : String;
+  end;
+
+  TPessoaJuridica = class
+  private
+  public
+    function Nome : String;
+  end;
+
+implementation
+
+{ TPessoaFisica }
+
+function TPessoaFisica.Nome: String;
+begin
+  Result := 'Pessoa Fisica';
+end;
+
+end.

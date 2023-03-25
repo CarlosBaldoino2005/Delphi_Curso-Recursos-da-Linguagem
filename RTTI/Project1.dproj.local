@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/16 13:50:46.000.996,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 13:38:03.000.251,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/13 15:00:06.186,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/13 15:03:45.728,C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Unit1.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/05/13 15:03:45.728,C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Unit1.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/13 15:03:47.561,C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Project1.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/05/13 15:22:39.910,=C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Unit2.pas</Transaction>
+    <Transaction>2021/05/13 15:22:51.950,C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Rtti.Utils.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\RTTI\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

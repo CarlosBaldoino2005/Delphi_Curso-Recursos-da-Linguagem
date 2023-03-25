@@ -1,0 +1,51 @@
+unit Pessoa;
+
+interface
+
+
+type
+  TPessoaFisica = class
+  private
+    FNome: String;
+    procedure SetNome(const Value: String);
+  public
+    constructor Create;
+    property Nome : String read FNome write SetNome;
+  end;
+
+  TPessoaJuridica = class
+  private
+    FNome: String;
+    procedure SetNome(const Value: String);
+  public
+    constructor Create;
+    property Nome : String read FNome write SetNome;
+  end;
+
+implementation
+
+{ TPessoaFisica }
+
+constructor TPessoaFisica.Create;
+begin
+  FNome := 'PessoaFisica';
+end;
+
+procedure TPessoaFisica.SetNome(const Value: String);
+begin
+  FNome := Value;
+end;
+
+{ TPessoaJuridica }
+
+constructor TPessoaJuridica.Create;
+begin
+  FNome := 'Pessoa Juridica';
+end;
+
+procedure TPessoaJuridica.SetNome(const Value: String);
+begin
+  FNome := Value;
+end;
+
+end.

@@ -1,0 +1,46 @@
+unit Rtti.Utils;
+
+interface
+
+uses
+  Vcl.Forms;
+
+type
+  TRttiUtils = class
+    private
+    public
+      class procedure FormToJson ( aForm : TForm; var aResult : TJsonObject );
+  end;
+
+implementation
+
+uses
+  System.Rtti;
+
+{ TRttiUtils }
+
+class procedure TRttiUtils.FormToJson(aForm: TForm; var aResult: TJsonObject);
+var
+  vRttiContext : TRttiContext;
+  vRttiType : TRttiType;
+  vRttiField : TRttiField;
+begin
+  vRttiContext := TRttiContext.Create;
+  try
+    vRttiType := vRttiContext.GetType(Self.ClassType);
+    for vRttiField in vRttiType.GetFields do
+    begin
+      if vRttiField.Name = 'Edit1' then
+      begin
+        Edit := Self.FindComponent(vRttiField.Name) as TEdit;
+        Edit.Text := Edit2.Text;
+      end;
+    end;
+
+  finally
+    vRttiContext.Free;
+  end;
+
+end;
+
+end.

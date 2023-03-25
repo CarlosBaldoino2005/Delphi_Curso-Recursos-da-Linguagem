@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/05/17 11:40:19.294,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/17 11:40:26.605,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\unit2.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2021/05/17 11:40:26.605,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\unit2.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/17 11:40:47.595,C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Unit2.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\unit2.dfm</Transaction>
+    <Transaction>2021/05/17 11:40:47.595,C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Unit2.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\unit2.pas</Transaction>
+    <Transaction>2021/05/17 11:40:54.069,C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\ReceiverMessage.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2021/05/17 11:41:32.232,=C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Unit3.pas</Transaction>
+    <Transaction>2021/05/17 11:41:50.584,C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Consts.Messages.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

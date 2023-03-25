@@ -1,0 +1,43 @@
+unit View.Calculadora.Multiplicar;
+
+interface
+
+uses
+  View.Calculadora.Interfaces;
+
+type
+  TCalculadoraMultiplicar = class(TInterfacedObject, iCalculadoraOperacoes)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iCalculadoraOperacoes;
+      function Calcular ( A, B : Double ) : Double;
+  end;
+
+implementation
+
+{ TCalculadoraMultiplicar }
+
+function TCalculadoraMultiplicar.Calcular(A, B: Double): Double;
+begin
+  Result := A * B;
+end;
+
+constructor TCalculadoraMultiplicar.Create;
+begin
+
+end;
+
+destructor TCalculadoraMultiplicar.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TCalculadoraMultiplicar.New: iCalculadoraOperacoes;
+begin
+
+end;
+
+end.

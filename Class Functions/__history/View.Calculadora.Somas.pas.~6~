@@ -1,0 +1,24 @@
+unit View.Calculadora.Somas;
+
+interface
+
+uses
+  View.Calculadora.Interfaces;
+
+type
+  TCalculadoraSomas = class(TInterfacedObject, iCalculadoraOperacoes)
+    private
+    public
+      function Calcular ( A, B : Double ) : Double;
+  end;
+
+implementation
+
+{ TCalculadoraSomas }
+
+function TCalculadoraSomas.Calcular(A, B: Double): Double;
+begin
+  Result := A + B;
+end;
+
+end.

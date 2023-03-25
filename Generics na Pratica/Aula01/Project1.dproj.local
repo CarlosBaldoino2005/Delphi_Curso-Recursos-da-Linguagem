@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/16 13:50:46.000.996,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 13:38:03.000.251,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 10:15:08.000.647,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/12 10:15:32.000.331,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit1.pas</Transaction>
+    <Transaction>2021/05/12 10:15:32.000.331,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit1.dfm</Transaction>
+    <Transaction>2021/05/12 10:15:34.000.767,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Project1.dproj</Transaction>
+    <Transaction>2021/05/12 10:15:48.000.105,=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 10:16:17.000.532,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.First.pas</Transaction>
+    <Transaction>2021/05/12 10:17:08.000.001,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.First.pas=</Transaction>
+    <Transaction>2021/05/12 10:24:32.000.287,=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 10:24:43.000.343,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.First.pas</Transaction>
+    <Transaction>2021/05/12 10:29:06.000.183,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.First.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.Pessoa.pas</Transaction>
+    <Transaction>2021/05/12 10:29:12.000.436,=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 10:29:19.000.924,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.Empresa.pas</Transaction>
+    <Transaction>2021/05/12 10:33:37.000.587,=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 10:33:46.000.844,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.Pessoa.Params.pas</Transaction>
+    <Transaction>2021/05/12 11:09:15.625,=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+    <Transaction>2021/05/12 11:09:24.426,C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Generic.Classe.Interfaces.pas=C:\Users\thuli\Desktop\Recursos da Linguagem\Generics\Aula01\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

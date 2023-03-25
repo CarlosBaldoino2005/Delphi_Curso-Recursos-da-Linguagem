@@ -1,0 +1,40 @@
+unit View.Loading;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TLoading = class
+    private
+    FOnLoadingProgress: TProc<Integer>;
+    procedure SetOnLoadingProgress(const Value: TProc<Integer>);
+    public
+      procedure Preencher;
+      property OnLoadingProgress : TProc<Integer> read FOnLoadingProgress write SetOnLoadingProgress;
+  end;
+
+implementation
+
+{ TLoading }
+
+procedure TLoading.Preencher;
+var
+  I: Integer;
+begin
+  for I := 1 to 100 do
+  begin
+    Sleep(10);
+    if Assigned(FOnLoadingProgress) then
+      FOnLoadingProgress(I);
+  end;
+end;
+
+
+procedure TLoading.SetOnLoadingProgress(const Value: TProc<Integer>);
+begin
+  FOnLoadingProgress := Value;
+end;
+
+end.

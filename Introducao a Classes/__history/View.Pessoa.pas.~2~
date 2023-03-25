@@ -1,0 +1,15 @@
+unit View.Pessoa;
+
+interface
+
+type
+  TPessoa = class
+  private
+    FSobrenome : String;
+  public
+    FNome : String;
+  end;
+
+implementation
+
+end.

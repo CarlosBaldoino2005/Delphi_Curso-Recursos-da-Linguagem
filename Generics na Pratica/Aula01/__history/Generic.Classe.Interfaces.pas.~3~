@@ -1,0 +1,19 @@
+unit Generic.Classe.Interfaces;
+
+interface
+
+uses
+  Generic.Classe.Pessoa.Params;
+
+type
+
+  iPessoa<T : class> = interface
+    ['{4C205206-2B4B-4655-B062-87090072E88E}']
+    function Nome ( aValue : String ) : iPessoa<T>;
+    function Params : TPessoaParams<T>;
+    function Cadastro : String;
+  end;
+
+implementation
+
+end.

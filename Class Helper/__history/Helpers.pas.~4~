@@ -1,0 +1,32 @@
+unit Helpers;
+
+interface
+
+uses
+  Vcl.StdCtrls;
+
+type
+
+  TEditHelper = class helper for TEdit
+    function ToInteger : Integer;
+    procedure TextInt( aValue : Integer );
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TEditHelper }
+
+procedure TEditHelper.TextInt(aValue: Integer);
+begin
+  Self.Text := IntToStr(aValue);
+end;
+
+function TEditHelper.ToInteger: Integer;
+begin
+  Result := StrToInt(Self.Text);
+end;
+
+end.
