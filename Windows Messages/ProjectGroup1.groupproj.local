@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/05/17 11:40:58.303,C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\ProjectGroup1.groupproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+	<Transactions>
+    <Transaction>2021/05/17 11:40:58.000.303,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\ProjectGroup1.groupproj</Transaction>
   </Transactions>
-  <Default.Personality>
-    <Projects ActiveProject="C:\Users\thuli\Desktop\Recursos da Linguagem\Windows Messages\Project1.dproj"/>
-  </Default.Personality>
+	<Default.Personality>
+		<Projects ActiveProject="D:\OneDrive - Etec Centro Paula Souza\Git Projetos\Delphi\Curso-Recursos-da-Linguagem\Delphi_Curso-Recursos-da-Linguagem\Windows Messages\Project1.dproj"/>
+	</Default.Personality>
 </BorlandProject>
